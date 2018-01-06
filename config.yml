@@ -1,6 +1,6 @@
 ---
 
-# dock items
+# dock_items
 # ------------------------------------------------------------------------------
 
 # Filenames must include .app extension.
@@ -18,7 +18,7 @@ dock_apps:
   - PhotoScanPro.app
   - QGIS.app
 
-# login items
+# login_items
 # ------------------------------------------------------------------------------
 
 # Filenames must include .app extension.
@@ -31,3 +31,10 @@ login_items_apps:
   - Magnet.app
   - Muzzle.app
   - OneDrive.app
+
+# node_pkgs
+# ------------------------------------------------------------------------------
+
+node_pkgs_list:
+  - imageoptim-cli
+  - tldr
