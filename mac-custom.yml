@@ -13,6 +13,7 @@
     - { role: node_pkgs, tags: ["node_pkgs"] }
     - { role: danbohea.flux, tags: ["flux"] }
     - { role: danbohea.skype, tags: ["skype"] }
+    - { cask_app_name: "atom", tags: ["atom"], role: danbohea.cask-app }
     - { cask_app_name: "atext", tags: ["atext"], role: danbohea.cask-app }
     - { cask_app_name: "dropbox", tags: ["dropbox"], role: danbohea.cask-app }
     - { cask_app_name: "nordvpn", tags: ["nordvpn"], role: danbohea.cask-app }
