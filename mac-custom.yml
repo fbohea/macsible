@@ -43,7 +43,7 @@
     # --------------------------------------------------------------------------
 
     # This app requests admin password and launches a dialogue.
-    - { cask_app_name: "logitech-control-center", tags: ["logitech_control_center"], role: danbohea.cask-app }
+    - { cask_app_name: "logitech-control-center", tags: ["logitech_control_center","drivers"], role: danbohea.cask-app }
 
     # Last
     # --------------------------------------------------------------------------
