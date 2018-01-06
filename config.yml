@@ -11,8 +11,8 @@ dock_apps:
   - Microsoft Word.app
   - Calendar.app
   - System Preferences.app
-  - Adobe Illustrator CC 2017
-  - Image Capture
+  - Adobe Illustrator.app
+  - Image Capture.app
   - Todoist.app
   - Pixelmator.app
   - PhotoScanPro.app
@@ -25,6 +25,7 @@ dock_apps:
 login_items_apps:
   - Alfred 3.app
   - aText.app
+  - Backup and Sync.app
   - Dropbox.app
   - Flux.app
   - HazelHelper.app
