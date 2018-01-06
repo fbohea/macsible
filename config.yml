@@ -11,9 +11,9 @@ dock_apps:
   - Microsoft Word.app
   - Calendar.app
   - System Preferences.app
-  - Adobe Illustrator.app
-  - Image Capture.app
   - Todoist.app
+  - Image Capture.app
+  - Adobe Illustrator CC 2018/Adobe Illustrator.app
   - Pixelmator.app
   - PhotoScanPro.app
   - QGIS.app
