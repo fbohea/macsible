@@ -35,13 +35,13 @@
     - { cask_app_name: "sketchup", tags: ["sketchup"], role: danbohea.cask-app }
     - { cask_app_name: "onedrive", tags: ["onedrive"], role: danbohea.cask-app }
 
-    # Requires license otherwise initiates 30 trial.
+    # Requires a license otherwise it initiates a 30 day trial.
     # - { cask_app_name: "photoscanpro", tags: ["photoscanpro"], role: danbohea.cask-app }
 
     # Drivers
     # --------------------------------------------------------------------------
 
-    # This app requests admin password and launches a dialogue.
+    # Installation of this app requests an admin password and then launches a dialogue.
     - { cask_app_name: "logitech-control-center", tags: ["logitech_control_center","drivers"], role: danbohea.cask-app }
 
     # Last
