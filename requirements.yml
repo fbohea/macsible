@@ -1,0 +1,16 @@
+---
+
+- src: danbohea.cask-app
+  version: master
+- src: danbohea.dock-items
+  version: master
+- src: danbohea.flux
+  version: master
+- src: danbohea.google-chrome
+  version: master
+- src: danbohea.homebrew
+  version: master
+- src: danbohea.quick-look-plugins
+  version: master
+- src: danbohea.skype
+  version: master

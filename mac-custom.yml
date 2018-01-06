@@ -1,0 +1,44 @@
+---
+- name: Mac custom
+  hosts: all
+  connection: local
+
+  roles:
+
+    - { role: macos, tags: ["macos"] }
+    - { role: danbohea.google-chrome, tags: ["google_chrome"] }
+    - { role: evernote, tags: ["evernote"] }
+    - { role: danbohea.quick-look-plugins, tags: ["quick_look_plugins"] }
+    - { role: node_pkgs, tags: ["node_pkgs"] }
+    - { role: danbohea.flux, tags: ["flux"] }
+    - { role: danbohea.skype, tags: ["skype"] }
+    - { cask_app_name: "atext", tags: ["atext"], role: danbohea.cask-app }
+    - { cask_app_name: "dropbox", tags: ["dropbox"], role: danbohea.cask-app }
+    - { cask_app_name: "nordvpn", tags: ["nordvpn"], role: danbohea.cask-app }
+    - { cask_app_name: "alfred", tags: ["alfred"], role: danbohea.cask-app }
+    - { cask_app_name: "the-unarchiver", tags: ["the_unarchiver"], role: danbohea.cask-app }
+    - { cask_app_name: "imageoptim", tags: ["imageoptim"], role: danbohea.cask-app }
+    - { cask_app_name: "appcleaner", tags: ["appcleaner"], role: danbohea.cask-app }
+    - { cask_app_name: "muzzle", tags: ["muzzle"], role: danbohea.cask-app }
+    - { cask_app_name: "adobe-creative-cloud", tags: ["adobe_creative_cloud"], role: danbohea.cask-app }
+    - { cask_app_name: "malwarebytes-anti-malware", tags: ["malwarebytes"], role: danbohea.cask-app }
+    - { cask_app_name: "hazel", tags: ["hazel"], role: danbohea.cask-app }
+    - { cask_app_name: "daisydisk", tags: ["daisydisk"], role: danbohea.cask-app }
+    - { cask_app_name: "flash-player", tags: ["flash_player"], role: danbohea.cask-app }
+    - { cask_app_name: "skitch", tags: ["skitch"], role: danbohea.cask-app }
+    - { cask_app_name: "vlc", tags: ["vlc"], role: danbohea.cask-app }
+    - { cask_app_name: "google-backup-and-sync", role: danbohea.cask-app, tags: ["google_backup_and_sync"] }
+    - { cask_app_name: "sketchup", role: danbohea.cask-app, tags: ["sketchup"] }
+    - { cask_app_name: "onedrive", role: danbohea.cask-app, tags: ["onedrive"] }
+
+    # Last
+    # --------------------------------------------------------------------------
+
+    - { role: danbohea.dock-items, tags: ["dock_items","last","always"] }
+    - { role: login_items, tags: ["login_items","last","always"] }
+
+  post_tasks:
+
+    - debug:
+        msg: "Some changes may not take effect until you've restarted your Mac."
+      tags: always

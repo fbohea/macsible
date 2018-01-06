@@ -1,0 +1,33 @@
+---
+
+# dock items
+# ------------------------------------------------------------------------------
+
+# Filenames must include .app extension.
+dock_apps:
+  - Google Chrome.app
+  - Evernote.app
+  - Skitch.app
+  - Microsoft Word.app
+  - Calendar.app
+  - System Preferences.app
+  - Adobe Illustrator CC 2017
+  - Image Capture
+  - Todoist.app
+  - Pixelmator.app
+  - PhotoScanPro.app
+  - QGIS.app
+
+# login items
+# ------------------------------------------------------------------------------
+
+# Filenames must include .app extension.
+login_items_apps:
+  - Alfred 3.app
+  - aText.app
+  - Dropbox.app
+  - Flux.app
+  - HazelHelper.app
+  - Magnet.app
+  - Muzzle.app
+  - OneDrive.app
