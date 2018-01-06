@@ -29,7 +29,7 @@
     - { cask_app_name: "vlc", tags: ["vlc"], role: danbohea.cask-app }
     - { cask_app_name: "google-backup-and-sync", role: danbohea.cask-app, tags: ["google_backup_and_sync"] }
     - { cask_app_name: "sketchup", role: danbohea.cask-app, tags: ["sketchup"] }
-    - { cask_app_name: "onedrive", role: danbohea.cask-app, tags: ["onedrive"] }
+    - { cask_app_name: "onedrive", tags: ["onedrive"], role: danbohea.cask-app }
 
     # Last
     # --------------------------------------------------------------------------
