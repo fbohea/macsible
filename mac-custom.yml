@@ -8,6 +8,7 @@
     - { role: macos, tags: ["macos"] }
     - { role: danbohea.google-chrome, tags: ["google_chrome"] }
     - { role: evernote, tags: ["evernote"] }
+    - { role: terminal, tags: ["terminal"] }
     - { role: danbohea.quick-look-plugins, tags: ["quick_look_plugins"] }
     - { role: node_pkgs, tags: ["node_pkgs"] }
     - { role: danbohea.flux, tags: ["flux"] }
