@@ -21,7 +21,7 @@
     - { cask_app_name: "appcleaner", tags: ["appcleaner"], role: danbohea.cask-app }
     - { cask_app_name: "muzzle", tags: ["muzzle"], role: danbohea.cask-app }
     - { cask_app_name: "adobe-creative-cloud", tags: ["adobe_creative_cloud"], role: danbohea.cask-app }
-    - { cask_app_name: "malwarebytes-anti-malware", tags: ["malwarebytes"], role: danbohea.cask-app }
+    - { cask_app_name: "malwarebytes", tags: ["malwarebytes"], role: danbohea.cask-app }
     - { cask_app_name: "hazel", tags: ["hazel"], role: danbohea.cask-app }
     - { cask_app_name: "daisydisk", tags: ["daisydisk"], role: danbohea.cask-app }
     - { cask_app_name: "flash-player", tags: ["flash_player"], role: danbohea.cask-app }
